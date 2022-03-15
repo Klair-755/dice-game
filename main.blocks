@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="swY%xlcN@[46g|`,7I[t">sprite</variable></variables><block type="device_button_event" id="chjN!itSz%G_%?W-fH(l" x="208" y="-12"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="game_remove_life" id="[6*Q#pGeSL#g3o)+A6Xh"><value name="life"><shadow type="math_number" id="_6)AS0?#|%{w2w@]P24y"><field name="NUM">1</field></shadow></value><next><block type="basic_show_icon" id="*-$@|o$N;tq*gWnVO8!="><field name="i">IconNames.No</field><next><block type="device_show_leds" id="/!)S#F]qnEBX$v,o3Zsl"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="yqf@I=3!sHy#6QyT-(xo"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="controls_if" id=".?|A02mF|@VGms|.N=2^"><value name="IF0"><shadow type="logic_boolean" id="x6R;Z:ce`;@a4kfY|yXR"><field name="BOOL">TRUE</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="Ww]Fbsz|^:+|05Pe^;t`" x="0" y="0"><statement name="HANDLER"><block type="game_add_life" id="O/eDs#!WK!;O`3}Pl0(W"><value name="lives"><shadow type="math_number" id="1igpz9E(~vz[mluKU/ud"><field name="NUM">3</field></shadow></value><next><block type="basic_show_icon" id=".oTiC)HkDNS}c[17]p+!"><field name="i">IconNames.No</field><next><block type="device_show_leds" id="e@OsRoYzI[XiPKw?Q)Z6"><field name="LEDS">`
+        . # # . . 
+        . . . # . 
+        . . # . . 
+        . . . # . 
+        . # # . .
+        `</field><next><block type="basic_show_icon" id="RA*V@L-2eON$y9k)j`Ai"><field name="i">IconNames.Heart</field><next><block type="game_move_sprite" id="W46Tue4$iF,SHP)Z2tMR"><value name="sprite"><block type="game_create_sprite" id="bLg/v:Q+DB!8gPS/h|RO"><value name="x"><shadow type="math_number" id="CQ7a`a.#=)ZJVpB8x6P^"><field name="NUM">0</field></shadow></value><value name="y"><shadow type="math_number" id="_A~:rtWe)e|_($eD;|N%"><field name="NUM">0</field></shadow></value></block></value><value name="leds"><shadow type="math_number" id="I$jwDka9~p5$Yl!YpwKo"><field name="NUM">0</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="A4A25b6qlT)s#Z^98B}." x="486" y="-11"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="game_remove_life" id="q,}*GnonmW;1d9L=?Yj`"><value name="life"><shadow type="math_number" id="Z7#8EO,Lue|T9`97~_b_"><field name="NUM">1</field></shadow></value><next><block type="basic_show_icon" id=")I~{#ZU5[^reQk##lgr!"><field name="i">IconNames.No</field><next><block type="device_show_leds" id="WcNSRfu*OM3%X,VmWGZ}"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="GZs#fRn1Y@W`3?!YjW8q"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="R:)hK%M^-T$M5VW/RJ(T" x="730" y="-18"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="game_remove_life" id="._Rm#;NT*D@x|n_PaIjJ"><value name="life"><shadow type="math_number" id=";n}(#JTqF?*kR8Hch/Q*"><field name="NUM">1</field></shadow></value><next><block type="basic_show_icon" id="_9gC5DN{YT}]LD_{-4#-"><field name="i">IconNames.No</field><next><block type="device_show_leds" id="dWJXX!V@xh.0U=qTH-*="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="/vyN(^p5s`Hhkj}arJdh"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="game_sprite_property" id="?jv,l5{(ZFk1`64[rO~+" disabled="true" x="-70" y="408"><field name="property">LedSpriteProperty.X</field></block><block type="device_gesture_event" id=":[!Uj:g?tRfmMiR92/F[" x="-23" y="761"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id="s2(4@,zmrRJ.l=NY_R4l"><value name="number"><block type="device_random" id="OwbKN;`3K7TuyF@MMGva"><value name="min"><shadow type="math_number" id="lAy_5hmPhWb1S(Qp[`nL"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="d4HnIIu@j$n0_Am]`2gZ"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="8wwLo;G(8Mt|?~rRGipl"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="game_sprite_touching_edge" id="t%8-0?K9jU#_g/HW;dq="><value name="sprite"><block type="variables_get" id="+[}ZRPc}:^O_6:%+Ql(n"><field name="VAR" id="swY%xlcN@[46g|`,7I[t">sprite</field></block></value></block></value><statement name="DO0"><block type="game_turn_sprite" id="?|!91ZCU?16J`a.[J95V"><field name="direction">Direction.Left</field><value name="sprite"><block type="variables_get" id="+KBZMtkROj-2akp-e6dE"><field name="VAR" id="swY%xlcN@[46g|`,7I[t">sprite</field></block></value><value name="degrees"><shadow type="math_number" id="u!p,qeerjX7tP;pypsU,"><field name="NUM">90</field></shadow></value></block></statement><statement name="ELSE"><block type="game_move_sprite" id="ks=9tmQ,Z7Rq+}^1^|,I"><value name="sprite"><block type="variables_get" id="0aJN3@et/9sk|~=@gwb3"><field name="VAR" id="swY%xlcN@[46g|`,7I[t">sprite</field></block></value><value name="leds"><block type="device_random" id="9#7710+iol,:#pJ-LoHy"><value name="min"><shadow type="math_number" id="LO0$yGIM7(g0-_ITdpLW"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="_dr?)k%szO34[6r#NmV6"><field name="NUM">6</field></shadow></value></block></value></block></statement></block></next></block></statement></block></xml>
